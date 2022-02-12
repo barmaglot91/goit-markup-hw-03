@@ -14,7 +14,6 @@
     margin-left: auto;
     margin-right: auto;
     width: 1200px;
-    outline: tomato;
 }
 
 .section {
@@ -136,6 +135,11 @@
 h1,h2,h3,h4,h5,h6,p,ul {
     margin-top: 0;
     margin-bottom: 0;
+    padding-left: 0;
+}
+
+img {
+    display: block;
 }
 
 /* Hero */
@@ -168,9 +172,8 @@ h1,h2,h3,h4,h5,h6,p,ul {
     
 }
 
-.quality-list:last-child {
-    margin-right: 0;
-}
+
+
 
 .title {
     margin-top: 0;
@@ -193,6 +196,12 @@ h1,h2,h3,h4,h5,h6,p,ul {
 
 }
 
+.title-text {
+    margin-right: 30px;
+}
+
+
+
 /* Examples */
 .service-title {
     color: var(--primary-text-color);
@@ -212,15 +221,17 @@ h1,h2,h3,h4,h5,h6,p,ul {
 
 .list-image {
     display: flex;
+    justify-content: space-between;
 }
 
 .images-comp{
+    
     margin-right: 30px;
     margin-bottom: 30px;
 }
 
-.images-comp:nth-child(3n) {
-margin-right: 0;
+.images-comp:not(:last-child) {
+margin-right: 30px;
 }
 
 /* Button */
@@ -270,6 +281,16 @@ margin-right: 0;
     line-height: 1.18;
     text-align: center;
     letter-spacing: 0.03em;
+}
+
+.teammates {
+    padding-top: 30px;
+}
+
+.positions {
+    padding-top: 10px;
+    padding-bottom: 30px;
+    margin-bottom: 94px;
 }
 
 .team {
@@ -335,6 +356,11 @@ margin-right: 0;
     color: var(--primary-white-color);
 }
 
+.adresses {
+    padding-top: 20px;
+    margin-bottom: 60px;
+}
+
 
 /* Portfolio */
 
@@ -362,6 +388,7 @@ margin-right: 0;
     padding-right: 15px;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 94px;
 }
 
 .galerry-list {
@@ -392,6 +419,13 @@ margin-right: 0;
     letter-spacing: 0.06em;
 }
 
+.names-pic {
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+}
+
+
 .kind-bussines {
     color: var(--secondary-text-color);
     font-size: 16px;
@@ -411,8 +445,12 @@ margin-right: 0;
 
 .button-list {
     display: flex;
+    padding-top: 94px;
+    padding-bottom: 34px;
+}
 
-
+.button-list {
+    justify-content: center;
 }
 
 .buttons {
