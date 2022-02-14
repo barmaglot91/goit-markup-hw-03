@@ -15,7 +15,7 @@
     <!--Шапка сайта-->
     <header class="page-header">
         <div class="container main-nav">
-        <a href="/index.html" class="logo">
+        <a href="/index.html" class="logo link">
         <p lang="en"> <span class="logo-header">Web</span>Studio</p> 
         </a>
         
@@ -28,10 +28,10 @@
         </nav>
         <ul class="phone-mail list">
             <li class="item" >
-                <a href="mail:info@devstudio.com" class="mail-number">info@devstudio.com</a>
+                <a href="mail:info@devstudio.com" class="mail-number link">info@devstudio.com</a>
             </li>
             <li class="item">
-                <a href="tel:380961111111" class="mail-number">+38 096 111 11 11</a>
+                <a href="tel:380961111111" class="mail-number link link">+38 096 111 11 11</a>
             </li>
         </ul>
         </div>
@@ -44,39 +44,31 @@
                 <button class="button" type="button">Заказать услугу</button>
             </div>
         </section>
-        <section>
+        <section class="section quality">
             <!--Наши сильные качества-->
             <h2 hidden>Наши сильные качества</h2>
             <div class="container">
             <ul class="quality-list list">
-                <li>
-                    <div class="title-text">
+                <li class="title-text">
                     <h3 class="title">Внимание к деталям</h3>
                     <p class="text">Идейные соображения, а также начало повседневной работы по формированию позиции.</p>
-                    </div>
                 </li>
-                <li>
-                    <div class="title-text">
+                <li class="title-text">
                     <h3 class="title" >Пунктуальность</h3>
                     <p class="text">Задача организации, в особенности же рамки и место обучения кадров влечет за собой.</p>
-                    </div>
                 </li>
-                <li>
-                    <div class="title-text">
+                <li class="title-text">
                     <h3 class="title">Планирование</h3>
                     <p class="text">Равным образом консультация с широким активом в значительной степени обуславливает.</p>
-                    </div>
                 </li>
-                <li>
-                    <div class="title-text">
+                <li class="title-text">
                     <h3 class="title">Современные технологии</h3>
                     <p class="text">Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p>
-                    </div>
                 </li>
             </ul>
             </div>
         </section>
-        <section>
+        <section class="section">
             <div class="container">
                 <h2 class="service-title">Чем мы занимаемся</h2>
             <ul class="list list-image">
@@ -92,44 +84,36 @@
             </ul>
             </div>
         </section>
-        <section class="our-team">
+        <section class="our-team section">
             <!--Наша Команда-->
             <h2 class="team-title">Наша команда</h2>
             <div class="container">
             <ul class="list team">
-                <li>
+                <li class="list-command">
                     <img class="team-img" src="./images/foto.jpg" alt="фото дизайнера" width="270" height="260">
                     <div class="teammates">
                     <h3 class="teammate">Игорь Демьяненко</h3>
-                    </div>
-                    <div class="positions">
                     <p lang="en" class="position">Product Designer</p>
                     </div>
                 </li>
-                <li>
+                <li class="list-command">
                     <img class="team-img" src="./images/foto1.jpg" alt="фото девелопера" width="270" height="260">
                     <div class="teammates">
                     <h3 class="teammate">Ольга Репина</h3>
-                    </div>
-                    <div class="positions">
                     <p class="position" lang="en">Frontend Developer</p>
                     </div>
                 </li>
-                <li>
+                <li class="list-command">
                     <img class="team-img" src="./images/foto2.jpg" alt="фото маркетолога" width="270" height="260">
                     <div class="teammates">
                     <h3 class="teammate">Николай Тарасов</h3>
-                    </div>
-                    <div class="positions">
                     <p class="position" lang="en">Marketing</p>
                     </div>
                 </li>
-                <li>
+                <li class="list-command">
                     <img class="team-img" src="./images/foto3.jpg" alt="фото ui дизайнера" width="270" height="260">
                     <div class="teammates">
                     <h3 class="teammate">Михаил Ермаков</h3>
-                    </div>
-                    <div class="positions">
                     <p class="position" lang="en">UI Designer</p>
                     </div>
                 </li>
@@ -137,21 +121,19 @@
             </div>
         </section>
     </main>
-    <footer>
-        <section class="footer section">
+    <footer class="footer">
+        <div class="container">
         <a href="/index.html" class="logo-footer">
             <p lang="en"> <span class="accentlogo">Web</span>Studio</p> 
         </a>
-        <address>
-            <div class="adresses">
-            <a href="https://www.google.com.ua/maps/place/%D0%B1%D1%83%D0%BB.+%D0%9B%D0%B5%D1%81%D0%B8+%D0%A3%D0%BA%D1%80%D0%B0%D0%B8%D0%BD%D0%BA%D0%B8,+26,+%D0%9A%D0%B8%D0%B5%D0%B2,+02000/@50.4258152,30.5366192,16.56z/data=!4m5!3m4!1s0x40d4cf0e033ecbe9:0x57a4dffefec77da0!8m2!3d50.4265807!4d30.5383858" class="street-adress">
+        <address class="adresses">
+            <a class="street-adress link" href="https://www.google.com.ua/maps/place/%D0%B1%D1%83%D0%BB.+%D0%9B%D0%B5%D1%81%D0%B8+%D0%A3%D0%BA%D1%80%D0%B0%D0%B8%D0%BD%D0%BA%D0%B8,+26,+%D0%9A%D0%B8%D0%B5%D0%B2,+02000/@50.4258152,30.5366192,16.56z/data=!4m5!3m4!1s0x40d4cf0e033ecbe9:0x57a4dffefec77da0!8m2!3d50.4265807!4d30.5383858">
                 г. Киев, пр-т Леси Украинки, 26 
-            </a> <br>
-            <a href="mail:info@devstudio.com" class="contacts-footer">info@devstudio.com</a> <br>
-            <a href="tel:380961111111" class="contacts-footer">+38 096 111 11 11</a>
-            </div>
+            </a>
+            <a href="mail:info@devstudio.com" class="contacts-footer link">info@devstudio.com</a>
+            <a href="tel:380961111111" class="contacts-footer link">+38 096 111 11 11</a>
         </address>
-        </section>
+        </div>
     </footer>
 </body>
 </html>
